@@ -1,4 +1,10 @@
 {
+  "name": "webpack-4-react-setup",
+  "version": "1",
+  "description": "Basic webpack setup for react application",
+  "repository": "https://github.com/dorian-morones/webpack4-react-setup",
+  "author": "Dorian Morones <dorianm393@gmail.com>",
+  "license": "MIT",
   "scripts": {
     "start": "webpack --mode development",
     "dev": "webpack-dev-server --mode development --open",
