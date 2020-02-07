@@ -25,7 +25,7 @@ module.exports = {
         use: [MiniCssExtractPlugin.loader, "css-loader", "sass-loader"]
       },
       {
-        test: /\.(png|jpe?g|gif)$/i,
+        test: /\.(png|jpe?g|gif|svg)$/i,
         loader: 'file-loader',
         options: {
           name: '[path][name].[ext]',
@@ -36,7 +36,7 @@ module.exports = {
   plugins: [
     new HtmlWebpackPlugin({
       filename: "index.html",
-      template: path.join(__dirname, "src/public", "index.html")
+      template: path.join(__dirname, "/src/public", "index.html")
     }),
     new MiniCssExtractPlugin({
       filename: "[name].css",
