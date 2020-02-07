@@ -1,6 +1,6 @@
 {
   "name": "webpack-4-react-setup",
-  "version": "1",
+  "version": "2",
   "description": "Basic webpack setup for react application",
   "repository": "https://github.com/dorian-morones/webpack4-react-setup",
   "author": "Dorian Morones <dorianm393@gmail.com>",
@@ -9,6 +9,21 @@
     "start": "webpack --mode development",
     "dev": "webpack-dev-server --mode development --open",
     "build": "webpack --mode production"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "eslintConfig": {
+    "extends": "react-app"
   },
   "devDependencies": {
     "@babel/core": "^7.5.5",
@@ -26,7 +41,8 @@
     "webpack-dev-server": "^3.8.0"
   },
   "dependencies": {
-    "react": "^16.9.0",
-    "react-dom": "^16.9.0"
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "react-scripts": "3.3.1"
   }
 }

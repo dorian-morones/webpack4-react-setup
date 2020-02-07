@@ -1,4 +1,7 @@
 # webpack4-react-setup
- ### Basic webpack setup for react application
+## Weback 4 boilerplate
  
- - webpack 4
+### Dependencies
+- [react](https://reactjs.org/)
+- [Babel](https://babeljs.io/)
+- [webpack](https://webpack.js.org)
